@@ -169,7 +169,7 @@ function Client() {
 }
 
 function Server() {
-  const [state, dispatch] = useSyncState(state => state)
+  const [heldBy, dispatch] = useSyncState(state => state.heldBy)
 
   useEffect(() => {
     // Ensure that any player that leaves the world while holding axe is returned.
