@@ -14,7 +14,7 @@ The server then starts a respawn timer.
 
 ## Getting Started
 
-- `git clone XXX`
+- `git clone https://github.com/hyperfy-io/hyperfy-woodcutting.git`
 - `cd hyperfy-woodcutting`
 - `yarn`
 - `yarn dev`
